@@ -1,0 +1,58 @@
+.accordion {
+    max-width: 800px;
+    margin-right: 0;
+    margin-left: 0;
+    margin: 0 auto;
+    margin-top: 80px;
+    --bs-accordion-btn-focus-box-shadow: 0px 1px 1px black, 0px 1px 1px black inset;
+}
+
+
+button {
+    font-family:'Open Sans', sans-serif;
+}
+
+.accordion-body{
+    font-family: 'Open Sans', sans-serif
+}
+
+.accordion .accordion-button {
+    background-color: rgb(223, 220, 220);
+    color: rgb(167, 16, 16);
+
+}
+
+.accordion .accordion-button:hover {
+    box-shadow: 0px 1px 1px black, 0px 1px 1px black inset;
+}
+
+.accordion-button.collapsed {
+    background-color: rgba(235, 233, 233, 0.258);
+    color:black;
+}
+
+.accordion-button.collapsed:hover {
+    background-color: rgb(223, 220, 220);
+    color: rgb(167, 16, 16);
+    box-shadow: 0px 1px 1px black, 0px 1px 1px black inset;
+}
+
+.a_link{
+    font-weight: 200;
+    text-decoration: none;
+    color: gray;
+}
+
+.a_link:hover{
+ color: rgb(167, 16, 16) ;
+}
+
+.span {
+  color: rgb(240, 57, 57);
+  padding-left: 8px;
+}
+
+.dot_none{
+    list-style: none;
+}
+

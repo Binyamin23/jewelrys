@@ -1,0 +1,206 @@
+[
+  {
+    "_id": {
+      "$oid": "6390dd98597a3b966a65f24d"
+    },
+    "name": "spring model earring",
+    "info": "pure silver plated with white gold",
+    "category": "earrings",
+    "img_url": "https://estybar.com/wp-content/uploads/2022/11/WhatsApp-Image-2021-10-28-at-15.53.55.jpeg",
+    "price": 249,
+    "date_created": {
+      "$date": {
+        "$numberLong": "1670438205326"
+      }
+    },
+    "user_id": "6390dd3e597a3b966a65f247",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6390de81597a3b966a65f24f"
+    },
+    "name": "nuri model earring",
+    "info": "pure silver plated with white gold",
+    "category": "earrings",
+    "img_url": "https://estybar.com/wp-content/uploads/2022/11/E28BFE06-78D6-4877-B02E-989D2F25D80F.jpeg",
+    "price": 529,
+    "date_created": {
+      "$date": {
+        "$numberLong": "1670438205326"
+      }
+    },
+    "user_id": "6390dd3e597a3b966a65f247",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6390dfa4597a3b966a65f251"
+    },
+    "name": "zoi model earring",
+    "info": "pure silver plated with white gold",
+    "category": "earrings",
+    "img_url": "https://estybar.com/wp-content/uploads/2022/11/20FBD620-6500-4648-B3C8-A8B3F2DC266A.jpeg",
+    "price": 449,
+    "date_created": {
+      "$date": {
+        "$numberLong": "1670438205326"
+      }
+    },
+    "user_id": "6390dd3e597a3b966a65f247",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6390ea9c9e7059dcda96004f"
+    },
+    "name": "infinity heart model necklace",
+    "info": "pure silver plated with white gold",
+    "category": "necklaces",
+    "img_url": "https://estybar.com/wp-content/uploads/2022/11/E12290B2-8DDD-499D-8AF0-98F73490C1E9.jpeg",
+    "price": 229,
+    "date_created": {
+      "$date": {
+        "$numberLong": "1670441471639"
+      }
+    },
+    "user_id": "6390e0cd597a3b966a65f253",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6390eb319e7059dcda960051"
+    },
+    "name": "star trio model necklace",
+    "info": "pure silver plated with white gold",
+    "category": "necklaces",
+    "img_url": "https://estybar.com/wp-content/uploads/2022/11/IMG-20200523-WA0034.jpg",
+    "price": 289,
+    "date_created": {
+      "$date": {
+        "$numberLong": "1670441471639"
+      }
+    },
+    "user_id": "6390e0cd597a3b966a65f253",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6390eb659e7059dcda960053"
+    },
+    "name": "ring model necklace",
+    "info": "pure silver plated with white gold",
+    "category": "necklaces",
+    "img_url": "https://estybar.com/wp-content/uploads/2022/11/EA328F5E-8917-4596-A6A4-C7EB6C40CEA1.jpeg",
+    "price": 289,
+    "date_created": {
+      "$date": {
+        "$numberLong": "1670441471639"
+      }
+    },
+    "user_id": "6390e0cd597a3b966a65f253",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6390eff8bb88d3bff74dfc14"
+    },
+    "name": "amy model ring",
+    "info": "pure silver plated with white gold",
+    "category": "rings",
+    "img_url": "https://estybar.com/wp-content/uploads/2022/11/IMG-20210905-WA0008.jpg",
+    "price": 249,
+    "date_created": {
+      "$date": {
+        "$numberLong": "1670442402653"
+      }
+    },
+    "user_id": "6390eebabb88d3bff74dfc10",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6390f03cbb88d3bff74dfc16"
+    },
+    "name": "x model ring",
+    "info": "pure silver plated with white gold",
+    "category": "rings",
+    "img_url": "https://estybar.com/wp-content/uploads/2022/11/ST-MIKEL.jpg",
+    "price": 229,
+    "date_created": {
+      "$date": {
+        "$numberLong": "1670442402653"
+      }
+    },
+    "user_id": "6390eebabb88d3bff74dfc10",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6390f084bb88d3bff74dfc18"
+    },
+    "name": "diamond model ring",
+    "info": "pure silver plated with white gold",
+    "category": "rings",
+    "img_url": "https://estybar.com/wp-content/uploads/2022/11/%D7%A8%D7%90%D7%A9%D7%99-24.png",
+    "price": 229,
+    "date_created": {
+      "$date": {
+        "$numberLong": "1670442402653"
+      }
+    },
+    "user_id": "6390eebabb88d3bff74dfc10",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6390f1a6bb88d3bff74dfc1e"
+    },
+    "name": "tennis model bracelet",
+    "info": "pure silver plated with white gold",
+    "category": "bracelets",
+    "img_url": "https://estybar.com/wp-content/uploads/2022/11/F11298B1-3F6A-44B6-AEAF-1373A7BA13AA.jpeg",
+    "price": 389,
+    "date_created": {
+      "$date": {
+        "$numberLong": "1670442402653"
+      }
+    },
+    "user_id": "6390f0debb88d3bff74dfc1a",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6390f21abb88d3bff74dfc20"
+    },
+    "name": "hearts model bracelet",
+    "info": "pure silver plated with white gold",
+    "category": "bracelets",
+    "img_url": "https://estybar.com/wp-content/uploads/2022/11/%D7%99%D7%94%D7%9C%D7%95%D7%9D-%D7%A8%D7%90%D7%A9%D7%99.png",
+    "price": 249,
+    "date_created": {
+      "$date": {
+        "$numberLong": "1670442402653"
+      }
+    },
+    "user_id": "6390f0debb88d3bff74dfc1a",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6390f2b0bb88d3bff74dfc22"
+    },
+    "name": "sheli model hard bracelet",
+    "info": "pure silver plated with white gold",
+    "category": "bracelets",
+    "img_url": "https://estybar.com/wp-content/uploads/2022/11/B2E78542-C7E1-4801-94C9-5D85C903BECF.jpg",
+    "price": 399,
+    "date_created": {
+      "$date": {
+        "$numberLong": "1670442402653"
+      }
+    },
+    "user_id": "6390f0debb88d3bff74dfc1a",
+    "__v": 0
+  }
+]

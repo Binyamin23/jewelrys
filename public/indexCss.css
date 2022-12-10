@@ -1,0 +1,23 @@
+.container{
+    max-width: 1100px;
+}
+#id_h1 {
+    text-shadow: 8px 16px 16px rgb(79, 79, 79);
+    color: rgb(167, 16, 16);
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-size: 70px;
+    font-family: 'Poor Story', cursive;
+}
+#id_h2{
+    padding-top: 20px;
+    font-size: 40px;
+    font-family: 'Poor Story', cursive;
+    color: rgb(184, 57, 57);
+}
+#id_h3{
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: 'Poor Story', cursive;
+    color:  rgb(169, 81, 81);
+}
+

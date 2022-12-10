@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="indexCss.css">
+  <link rel="stylesheet" href="accordion.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="container mt-5">
+      <h1 id="id_h1" class="text-center">Jewelrys api documentation</h1>
+      <h2 id="id_h2" class="text-center">Routes</h2>
+      <h3 id="id_h3" class="text-center">its all http methods , you can use them for your request.</h3>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Sign Up
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+
+              <li class="dot_none">Sign Up: <a class="a_link" href="#">/users/signUp</a><span class="span">
+                  (POST)</span></li><br>
+              <ul>
+                <li>name <span class="span"> (required)</span></li><br>
+                <li>email <span class="span"> (required)</span></li><br>
+                <li>password <span class="span"> (required)</span></li><br>
+                <li>role </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Sign In
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+
+              <li class="dot_none">Sign In: <a class="a_link" href="#">/users/signIn</a><span class="span">
+                  (POST)</span></li><br>
+              <ul>
+                <li>name <span class="span"> (required)</span></li><br>
+                <li>password <span class="span"> (required)</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              User's info
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+
+              <li class="dot_none">User's Info: <a class="a_link" href="#">/users/myInfo</a><span class="span">
+                  (GET)</span></li><br>
+              <ul>
+                <li>auth-token:<span class="span"> (required)</span></li>
+                <ul>
+                  <li class="dot_none">its only for register users , you must send auth-token through header</li>
+                </ul>
+              </ul><br><br>
+
+              <li class="dot_none">UserList Info: <a class="a_link" href="#">/jewelrys/myList</a><span class="span">
+                  (GET)</span></li><br>
+              <ul>
+                <li>auth-token:<span class="span"> (required)</span></li>
+                <ul>
+                  <li class="dot_none">its only for register users , you must send auth-token through header</li>
+                </ul>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+              Get prodocts
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <ul>
+                <li>Get 10 products by first page: <a class="a_link" href="#">/jewelrys</a> <span class="span">
+                    (GET)</span></li><br>
+                <li>Get 10 products by page number: <a class="a_link" href="#">/jewelrys?page=number</a> <span
+                    class="span"> (GET) </span></li><br>
+                <li> Get X products in each page: <a class="a_link" href="#">/jewelrys?perPage=number</a> <span
+                    class="span"> (GET)</span></li><br>
+                <li> Sort products: <a class="a_link" href="#">/jewelrys?sort=sort-key </a> <span
+                    class="span">(GET)</span></li><br>
+                <li>Reverse by sort key: <a class="a_link" href="#">/jewelrys?reverse=yes</a> <span
+                    class="span">(GET)</span></li><br>
+                <li> Search products by name or info: <a class="a_link" href="#">/jewelrys/search?s=word-key </a> <span
+                    class="span">(GET)</span></li><br>
+                <li> Price range: <a class="a_link" href="#">/jewelrys/prices?min=number&max=number </a> <span
+                    class="span">(GET)</span></li><br>
+                <li> Get products by category: <a class="a_link" href="#">/jewelrys/category/category-name</a> <span
+                    class="span"> (GET)</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+              Add product/s
+            </button>
+          </h2>
+          <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <li class="dot_none">Add product: <a class="a_link" href="#">/jewelrys</a><span class="span">
+                  (POST)</span></li><br>
+              <ul>
+                <li>auth-token:<span class="span"> (required)</span></li>
+                <ul>
+                  <li class="dot_none">its only for register users , you must send auth-token through header</li>
+                </ul><br>
+                <li>name <span class="span"> (required)</span></li><br>
+                <li>info <span class="span"> (required)</span></li><br>
+                <li>category<span class="span"> (required)</span></li><br>
+                <li>img_url <span class="span"></span></li><br>
+                <li>price <span class="span"> (required)</span></li><br>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingSix">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+              Edit products
+            </button>
+          </h2>
+          <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <li class="dot_none">Edit product: <a class="a_link" href="#">/jewelrys/id(jewelry)</a><span class="span">
+                  (PUT)</span></li><br>
+              <ul>
+                <li>auth-token:<span class="span"> (required)</span></li>
+                <ul>
+                  <li class="dot_none">its only for register users , you must send auth-token through header</li>
+                </ul><br>
+                <li>name <span class="span"> (required)</span></li><br>
+                <li>info <span class="span"> (required)</span></li><br>
+                <li>category<span class="span"> (required)</span></li><br>
+                <li>img_url <span class="span"></span></li><br>
+                <li>price <span class="span"> (required)</span></li><br>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingSeven">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+              Delete products
+            </button>
+          </h2>
+          <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <li class="dot_none">Delete product: <a class="a_link" href="#">/jewelrys/id(jewelry)</a><span class="span">
+                (DELETE)</span></li><br>
+            <ul>
+              <li>auth-token:<span class="span"> (required)</span></li>
+              <ul>
+                <li class="dot_none">its only for register users , you must send auth-token through header</li>
+              </ul><br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
