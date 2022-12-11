@@ -52,6 +52,24 @@ button {
   padding-left: 8px;
 }
 
+.span_get{
+    color: rgb(43, 203, 43);
+    padding-left: 8px;
+}
+.span_post{
+    color: rgb(247, 175, 43);
+    padding-left: 8px;
+}
+
+.span_put{
+    color: red;
+    padding-left: 8px;
+}
+
+.span_delete{
+    color: red;
+    padding-left: 8px;
+}
 .dot_none{
     list-style: none;
 }

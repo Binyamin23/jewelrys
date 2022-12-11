@@ -30,7 +30,7 @@
             data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
 
-              <li class="dot_none">Sign Up: <a class="a_link" href="#">/users/signUp</a><span class="span">
+              <li class="dot_none">Sign Up: <a class="a_link" href="#">/users/signUp</a><span class="span_post">
                   (POST)</span></li><br>
               <ul>
                 <li>name <span class="span"> (required)</span></li><br>
@@ -52,7 +52,7 @@
             data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
 
-              <li class="dot_none">Sign In: <a class="a_link" href="#">/users/signIn</a><span class="span">
+              <li class="dot_none">Sign In: <a class="a_link" href="#">/users/signIn</a><span class="span_post">
                   (POST)</span></li><br>
               <ul>
                 <li>name <span class="span"> (required)</span></li><br>
@@ -72,7 +72,7 @@
             data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
 
-              <li class="dot_none">User's Info: <a class="a_link" href="#">/users/myInfo</a><span class="span">
+              <li class="dot_none">User's Info: <a class="a_link" href="#">/users/myInfo</a><span class="span_get">
                   (GET)</span></li><br>
               <ul>
                 <li>auth-token:<span class="span"> (required)</span></li>
@@ -81,7 +81,7 @@
                 </ul>
               </ul><br><br>
 
-              <li class="dot_none">UserList Info: <a class="a_link" href="#">/jewelrys/myList</a><span class="span">
+              <li class="dot_none">UserList Info: <a class="a_link" href="#">/jewelrys/myList</a><span class="span_get">
                   (GET)</span></li><br>
               <ul>
                 <li>auth-token:<span class="span"> (required)</span></li>
@@ -103,22 +103,22 @@
             data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
               <ul>
-                <li>Get 10 products by first page: <a class="a_link" href="#">/jewelrys</a> <span class="span">
+                <li>Get 10 products by first page: <a class="a_link" href="#">/jewelrys</a> <span class="span_get">
                     (GET)</span></li><br>
                 <li>Get 10 products by page number: <a class="a_link" href="#">/jewelrys?page=number</a> <span
-                    class="span"> (GET) </span></li><br>
+                    class="span_get"> (GET) </span></li><br>
                 <li> Get X products in each page: <a class="a_link" href="#">/jewelrys?perPage=number</a> <span
-                    class="span"> (GET)</span></li><br>
+                    class="span_get"> (GET)</span></li><br>
                 <li> Sort products: <a class="a_link" href="#">/jewelrys?sort=sort-key </a> <span
-                    class="span">(GET)</span></li><br>
+                    class="span_get">(GET)</span></li><br>
                 <li>Reverse by sort key: <a class="a_link" href="#">/jewelrys?reverse=yes</a> <span
-                    class="span">(GET)</span></li><br>
+                    class="span_get">(GET)</span></li><br>
                 <li> Search products by name or info: <a class="a_link" href="#">/jewelrys/search?s=word-key </a> <span
-                    class="span">(GET)</span></li><br>
+                    class="span_get">(GET)</span></li><br>
                 <li> Price range: <a class="a_link" href="#">/jewelrys/prices?min=number&max=number </a> <span
-                    class="span">(GET)</span></li><br>
+                    class="span_get">(GET)</span></li><br>
                 <li> Get products by category: <a class="a_link" href="#">/jewelrys/category/category-name</a> <span
-                    class="span"> (GET)</span></li>
+                    class="span_get"> (GET)</span></li>
               </ul>
             </div>
           </div>
@@ -133,7 +133,7 @@
           <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
             data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
-              <li class="dot_none">Add product: <a class="a_link" href="#">/jewelrys</a><span class="span">
+              <li class="dot_none">Add product: <a class="a_link" href="#">/jewelrys</a><span class="span_post">
                   (POST)</span></li><br>
               <ul>
                 <li>auth-token:<span class="span"> (required)</span></li>
@@ -159,7 +159,7 @@
           <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
             data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
-              <li class="dot_none">Edit product: <a class="a_link" href="#">/jewelrys/id(jewelry)</a><span class="span">
+              <li class="dot_none">Edit product: <a class="a_link" href="#">/jewelrys/id(jewelry)</a><span class="span_put">
                   (PUT)</span></li><br>
               <ul>
                 <li>auth-token:<span class="span"> (required)</span></li>
@@ -185,7 +185,7 @@
           <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven"
             data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
-              <li class="dot_none">Delete product: <a class="a_link" href="#">/jewelrys/id(jewelry)</a><span class="span">
+              <li class="dot_none">Delete product: <a class="a_link" href="#">/jewelrys/id(jewelry)</a><span class="span_delete">
                 (DELETE)</span></li><br>
             <ul>
               <li>auth-token:<span class="span"> (required)</span></li>
